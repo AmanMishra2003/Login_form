@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+        <div class="login-block">
+            <div class="user-img">
+                <svg xmlns="http://www.w3.org/2000/svg" width="4rem" height="4rem" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                    <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                  </svg>
+            </div>
+            <h1>Welcome!</h1>
+            <form action="" class="login-form">
+                <div>
+                   <input  class="form-item" type="text" name="username" placeholder="Username">
+                </div>
+                <div class="pass">
+                   <input class="form-item" type="password" name="pass" placeholder="Password" >
+                   <span>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMwsCszmjOuof7Yf-pynO1XguMR1aMDRKJgdhS4AY&s" width="25em" alt="" onclick=changeType()>
+                   </span>
+                </div>
+                <div>
+                   <button  class="form-btn" type="submit">Login</button>
+                </div>
+            </form>
+            <div class="Question"><a href="#">Forgot your password?</a> <a href="#">Sign up</a></div>
+        </div>
+      
+    
+    <script src="app.js"></script>
+</body>
+</html>
